@@ -10,6 +10,11 @@ I'm a young developer currently at school, my languages of the moment is : Rust,
 
 -----
 
+### Github stats : 
+![onihilist's GitHub stats](https://github-readme-stats.vercel.app/api?username=onihilist&show_icons=true&theme=radical)
+
+-----
+
 ### 📋 ☆ Socials :
 ![url=https://osekai.net/profiles?user=14664567](https://osekai.net/profiles/img/banner.svg?id=14664567)
 <!--
