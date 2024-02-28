@@ -6,7 +6,7 @@
 -----
 
 ### About me :
-I'm a young developer currently at school, my languages of the moment is : Rust, C++, and Python.   More informations at : [https://onihilist.github.io](https://onihilist.github.io)
+I'm a young developer currently at school, my languages of the moment is : Rust, C++, and Python. <br /> More informations at : [https://onihilist.github.io](https://onihilist.github.io)
 
 <!--
 **onihilist/onihilist** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
