@@ -11,7 +11,7 @@ I'm a young developer currently at school, my languages of the moment is : Rust,
 -----
 
 ### Github stats : 
-![onihilist's GitHub stats](https://github-readme-stats.vercel.app/api?username=onihilist&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=transparent&text_color=c0deff&locale=fr)
+![onihilist's GitHub stats](https://github-readme-stats.vercel.app/api?username=onihilist&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=transparent&text_color=c0deff&locale=en)
 
 -----
 
