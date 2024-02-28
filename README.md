@@ -15,6 +15,12 @@ I'm a young developer currently at school, my languages of the moment is : Rust,
 
 -----
 
+### Languages :
+
+[![My Skills](https://skillicons.dev/icons?i=rust,cpp,python)](https://skillicons.dev)
+
+-----
+
 ### 📋 ☆ Socials :
 ![url=https://osekai.net/profiles?user=14664567](https://osekai.net/profiles/img/banner.svg?id=14664567)
 <!--
