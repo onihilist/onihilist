@@ -8,6 +8,10 @@
 ### 📋 ☆ About me :
 I'm a young developer currently at school, my languages of the moment is : Rust, C++, and Python. <br /> More informations at : [https://onihilist.github.io](https://onihilist.github.io)
 
+-----
+
+### 📋 ☆ Socials :
+[url=https://osekai.net/profiles?user=14664567][img]https://osekai.net/profiles/img/banner.svg?id=14664567[/img][/url]
 <!--
 **onihilist/onihilist** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
