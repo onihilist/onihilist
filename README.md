@@ -10,12 +10,12 @@ I'm a young developer currently at school, my languages of the moment is : Rust,
 
 -----
 
-### Github stats : 
+### 📈 ☆ Github stats : 
 ![onihilist's GitHub stats](https://github-readme-stats.vercel.app/api?username=onihilist&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=transparent&text_color=c0deff&title_color=006FEE&icons_color=006FEE&locale=en&custom_title=onihilist%20statistics)
 
 -----
 
-### Languages & Technologies :
+### 💻 ☆ Languages & Technologies :
 
 [![Languages](https://skillicons.dev/icons?i=rust,cpp,java,ts,python,md,latex)](https://skillicons.dev) <br />
 [![Languages](https://skillicons.dev/icons?i=nodejs,nestjs,php,html,js,css,scss)](https://skillicons.dev) <br />
@@ -24,13 +24,13 @@ I'm a young developer currently at school, my languages of the moment is : Rust,
 
 -----
 
-### Distributions :
+### 🌐 ☆ Distributions :
 
 [![Distribution](https://skillicons.dev/icons?i=windows,debian,ubuntu,kali)](https://skillicons.dev) <br />
 
 -----
 
-### 📋 ☆ Socials :
+### 📲 ☆ Socials :
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/onhilist)
 ![GitLab](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/oppshs)
