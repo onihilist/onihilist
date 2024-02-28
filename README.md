@@ -33,6 +33,7 @@ I'm a young developer currently at school, my languages of the moment is : Rust,
 ### 📋 ☆ Socials :
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/onhilist)
 ![GitLab](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/oppshs)
 <!--
 **onihilist/onihilist** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
