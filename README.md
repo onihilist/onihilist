@@ -1,7 +1,7 @@
 
 ## 🍜 ☆ Hey i'm Nihilist !
 
-![Alt Text](https://i.imgur.com/88luT9k.gif)
+![Alt Text](https://github.com/onihilist/StorageGIF/blob/main/youtube-video-gif(2).gif)
 -----
 
 ### 📋 ☆ About me :
