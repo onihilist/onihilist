@@ -1,7 +1,7 @@
 
 ## 🍜 ☆ Hey i'm Nihilist !
 
-![Alt Text](https://imgur.com/a/2sTVJFg)
+![Alt Text](https://i.imgur.com/88luT9k.gif)
 -----
 
 ### 📋 ☆ About me :
