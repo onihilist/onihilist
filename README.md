@@ -1,7 +1,7 @@
 
 ## 🍜 ☆ Hey i'm Nihilist !
 
-![Alt Text]([https://images-ext-1.discordapp.net/external/NFQAAjWhZ9DWF-s70JmmAey8B1xZ9rJxBBsH1Qw8OnA/https/media.tenor.com/JVysv4oeioQAAAPo/brasil-brazil.mp4](https://media.discordapp.net/attachments/1231021875761643580/1294281029556633670/youtube-video-gif.gif?ex=670a70a4&is=67091f24&hm=7008a42e3638e8efe71f38a3aeee3d7fa2c47b73c8311c118bc853952387b342&=)
+![Alt Text](https://media.tenor.com/JVysv4oeioQAAAAM/brasil-brazil.gif)
 -----
 
 ### 📋 ☆ About me :
