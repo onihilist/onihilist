@@ -1,7 +1,7 @@
 
 ## 🍜 ☆ Hey i'm Nihilist !
 
-![Alt Text](https://cdn.discordapp.com/attachments/1231021875761643580/1294282146961297489/youtube-video-gif.gif?ex=670a71ae&is=6709202e&hm=13279e0e9594f98aaa79b869f5827b972b9e2802770fe6084cc4c114e7a6e936&)
+![Alt Text](https://media.discordapp.net/attachments/1231021875761643580/1294282146961297489/youtube-video-gif.gif?ex=670a71ae&is=6709202e&hm=13279e0e9594f98aaa79b869f5827b972b9e2802770fe6084cc4c114e7a6e936&=)
 -----
 
 ### 📋 ☆ About me :
