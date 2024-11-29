@@ -1,7 +1,7 @@
 
 ## 🍜 ☆ Hey i'm Nihilist !
 
-![Alt Text](https://github.com/onihilist/StorageGIF/blob/main/youtube-video-gif(2).gif)
+![BANG BANG](https://github.com/onihilist/StorageGIF/blob/main/858310C0-62D0-42DF-AE04-1C3847C17EFE.png)
 -----
 
 ### 📋 ☆ About me :
@@ -10,9 +10,9 @@ I'm a young developer currently at school, my languages of the moment is : Rust,
 -----
 
 ### 📈 ☆ Github stats : 
-![onihilist's Stats](https://github-readme-stats.vercel.app/api?username=onihilist&theme=omni&show_icons=true&hide_border=false&count_private=true)
-![onihilist's Streak](https://github-readme-streak-stats.herokuapp.com/?user=onihilist&theme=omni&hide_border=false)
-![onihilist's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=onihilist&theme=omni&show_icons=true&hide_border=false&layout=compact)
+![onihilist's Stats](https://github-readme-stats.vercel.app/api?username=onihilist&theme=kacho_ga&show_icons=true&hide_border=true&count_private=true)
+![onihilist's Streak](https://github-readme-streak-stats.herokuapp.com/?user=onihilist&theme=kacho_ga&hide_border=true)
+![onihilist's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=onihilist&theme=kacho_ga&show_icons=true&hide_border=true&layout=compact)
 
 -----
 
