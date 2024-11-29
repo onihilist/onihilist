@@ -1,7 +1,7 @@
 
 ## 🍜 ☆ Hey i'm Nihilist !
 
-![BANG BANG](https://github.com/onihilist/StorageGIF/blob/main/858310C0-62D0-42DF-AE04-1C3847C17EFE.png)
+![BANG BANG](https://github.com/onihilist/StorageGIF/blob/main/858310C0-62D0-42DF-AE04-1C3847C17EFE.png =700x500)
 -----
 
 ### 📋 ☆ About me :
