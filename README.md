@@ -6,7 +6,7 @@
 -----
 
 ### 📋 ☆ About me :
-I'm a young developer currently at school, my languages of the moment is : Rust, C++, and Python. <br /> More informations at : [https://onihilist.github.io](https://onihilist.github.io)
+I'm a young developer currently at school, my languages of the moment is : Rust, C++, and Python.
 
 -----
 
