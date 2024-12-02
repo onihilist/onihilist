@@ -6,7 +6,7 @@
 -----
 
 ### 👀 ☆ Visit counter :
-![:name](https://count.getloli.com/@onihilist)
+![visit counter onihilist](https://count.getloli.com/@onihilist?theme=booru-jaypee)
 
 -----
 
