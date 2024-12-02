@@ -5,6 +5,11 @@
 
 -----
 
+### 👀 ☆ Visit counter :
+![:name](https://count.getloli.com/@onihilist)
+
+-----
+
 ### 📋 ☆ About me :
 I'm a young developer currently at school, my languages of the moment is : Rust, C++, and Python.
 
