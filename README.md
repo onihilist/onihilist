@@ -25,7 +25,7 @@ I'm a young developer currently at school, my languages of the moment is : Rust,
 
 [![Languages](https://skillicons.dev/icons?i=rust,go,cpp,java,ts,python,md,latex)](https://skillicons.dev) <br />
 [![Languages](https://skillicons.dev/icons?i=nodejs,nestjs,php,symfony,html,js,css,scss)](https://skillicons.dev) <br />
-[![Technologies](https://skillicons.dev/icons?i=docker,mysql,postgres,sqlite,postman,mongodb)](https://skillicons.dev) <br />
+[![Technologies](https://skillicons.dev/icons?i=kubernetes,docker,mysql,postgres,sqlite,postman,mongodb)](https://skillicons.dev) <br />
 [![Technologies](https://skillicons.dev/icons?i=git,github,gitlab)](https://skillicons.dev)
 
 -----
