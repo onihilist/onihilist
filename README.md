@@ -1,7 +1,7 @@
 
 ## 🍜 ☆ Hey i'm Nihilist !
 
-<img src="[https://github.com/onihilist/StorageGIF/blob/main/858310C0-62D0-42DF-AE04-1C3847C17EFE%20(1).png](https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books/blob/master/Rust/Minagi_Koharu_Reading_Rust_Programming_Language.png?raw=true)" alt="Stay rusty guys ! :)"</>
+<img src="https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books/blob/master/Rust/Minagi_Koharu_Reading_Rust_Programming_Language.png?raw=true" alt="Stay rusty guys ! :)"</>
 
 -----
 
