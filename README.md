@@ -16,7 +16,7 @@ I'm a young developer currently at school, my languages of the moment is : Rust,
 -----
 
 ### 🎵 ☆ Last listened song :
-<img src="https://music-profile.rayriffy.com/theme/light.svg?uid=000117.770ef59af8cb4948bca028afb7bcba49.0945" alt="Apple Music Profile"/>
+<img src="https://music-profile.rayriffy.com/theme/dark.svg?uid=000117.770ef59af8cb4948bca028afb7bcba49.0945" alt="Apple Music Profile"/>
 
 -----
 
