@@ -2,7 +2,8 @@
 ## 🍜 ☆ Hey i'm Nihilist !
 
 <img src="https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books/blob/master/Rust/Minagi_Koharu_Reading_Rust_Programming_Language.png?raw=true" alt="Stay rusty guys ! :)"/>
-![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/light.svg?uid=000117.770ef59af8cb4948bca028afb7bcba49.0945)
+[![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/light.svg?uid=000117.770ef59af8cb4948bca028afb7bcba49.0945)](https://music-profile.rayriffy.com)
+
 -----
 
 ### 👀 ☆ Visit counter :
