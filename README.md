@@ -38,7 +38,7 @@ I'm a young developer currently at school, my languages of the moment is : Rust,
 
 ### 🌐 ☆ Distributions :
 
-[![Distribution](https://skillicons.dev/icons?i=windows,fedora,debian,ubuntu)](https://skillicons.dev) <br />
+[![Distribution](https://skillicons.dev/icons?i=windows,debian,ubuntu)](https://skillicons.dev) <br />
 
 -----
 
