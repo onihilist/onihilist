@@ -11,7 +11,7 @@
 -----
 
 ### 📋 ☆ About me :
-I'm a young developer currently at school, my languages of the moment is : Rust, C#, and Golang.
+I'm a young developer currently at school, my languages as of the moment are : Rust, C#, and Golang.
 
 -----
 
