@@ -23,7 +23,7 @@ I'm a young developer currently at school, my languages as of the moment are : R
 ### 📈 ☆ Github stats : 
 ![onihilist's Stats](https://github-readme-stats.vercel.app/api?username=onihilist&theme=kacho_ga&show_icons=true&hide_border=true&count_private=true)
 ![onihilist's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=onihilist&theme=kacho_ga&show_icons=true&hide_border=true&layout=compact)
-![onihilist's Trophy](https://github-profile-trophy.vercel.app/?username=onihilist&theme=dark_lover&rank=SECRET,SSS,SS,S,AAA,AA,A)(https://github-trophies.vercel.app/?username=onihilist&theme=dark_lover&rank=SECRET,SSS,SS,S,AAA,AA,A)
+![onihilist's Trophy](https://github-profile-trophy.vercel.app/?username=onihilist&theme=dark_lover&rank=SECRET,SSS,SS,S,AAA,AA,A)
 
 -----
 
