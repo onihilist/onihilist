@@ -1,7 +1,7 @@
 
 ## 🍜 ☆ Hey i'm Nihilist !
 
-<img src="https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books/blob/master/Rust/Minagi_Koharu_Reading_Rust_Programming_Language.png?raw=true" alt="Stay rusty guys ! :)"/>
+<img width="1600" height="900" alt="umika-chibi-github" src="https://github.com/user-attachments/assets/00aaf07a-4c0a-4e7d-aaa4-78183ee476fc" alt="Young nihilist be like :o"/>
 
 -----
 
