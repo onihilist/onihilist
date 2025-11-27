@@ -1,9 +1,13 @@
 
 ## 🍜 ☆ Hey i'm Nihilist !
 
+![My Card](https://cdn.discordapp.com/attachments/922469880568119326/1443610008041426954/card.svg?ex=6929b216&is=69286096&hm=296cb50071a005971f01b1dba94c580583df6134a4a4ac10c473ee78fa5beb57&)
+
 <img width="1600" height="900" alt="umika-chibi-github" src="https://github.com/user-attachments/assets/00aaf07a-4c0a-4e7d-aaa4-78183ee476fc" alt="Young nihilist be like :o"/>
 
 -----
+
+href="https://cdn.discordapp.com/attachments/922469880568119326/1443610008041426954/card.svg?ex=6929b216&is=69286096&hm=296cb50071a005971f01b1dba94c580583df6134a4a4ac10c473ee78fa5beb57&"
 
 ### 👀 ☆ Visit counter :
 ![visit counter onihilist](https://count.getloli.com/@onihilist?name=onihilist&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=0&darkmode=auto)
