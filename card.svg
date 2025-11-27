@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+
+	<!-- Background -->
+	<rect width="800" height="450" fill="#0A0A0A" rx="20"/>
+
+	<!-- Glass Panel -->
+	<g filter="url(#glass)">
+		<rect width="800" height="450" rx="20"
+			fill="white" fill-opacity="0.15"
+			stroke="white" stroke-opacity="0.2" stroke-width="1"/>
+		<rect x="6" y="46" width="788" height="390" rx="20"
+			fill="url(#grad)" fill-opacity="0.1"/>
+	</g>
+
+	<!-- Icon -->
+	<image href="data:image/png;base64,%s"
+			x="3" y="12" height="25" width="50"/>
+
+	<!-- Logo -->
+	<image href="data:image/png;base64,%s"
+			x="22" y="0" height="50" width="100"
+			opacity="0.7"/>
+
+	<!-- Name -->
+	<image href="data:image/png;base64,%s"
+			x="328" y="2" height="50" width="100"
+			opacity="0.7"/>
+
+	<!-- Glass Panel around buttons -->
+	<g filter="url(#glass)">
+		<rect x="715" y="6" width="70" height="30" rx="15"
+			fill="white" fill-opacity="0.15"
+			stroke="white" stroke-opacity="0.2" stroke-width="1"/>
+		<rect x="716" y="7" width="68" height="28" rx="14"
+			fill="url(#grad)" fill-opacity="0.05"/>
+	</g>
+
+	<!-- Buttons -->
+	<g transform="translate(715, 7)">
+		<circle cx="15" cy="15" r="6" fill="#FF5F57"/>
+		<circle cx="35" cy="15" r="6" fill="#FFBD2E"/>
+		<circle cx="55" cy="15" r="6" fill="#28C840"/>
+	</g>
+
+	<!-- Glowing Typewriter Text -->
+	<a href="https://github.com/onihilist/NShell" target="_blank">
+		<text x="20" y="80"
+			  font-size="14"
+			  fill="#e7e7e7"
+			  font-family="Trebuchet MS, sans-serif"
+			  filter="url(#purpleGlow)"
+			  clip-path="url(#revealClip)">
+			<tspan x="20" dy="0">Hi everyone!</tspan>
+			<tspan x="20" dy="18">I'm a young developer currently at school, my languages as of the moment are:</tspan>
+			<tspan x="40" dy="18">- Rust</tspan>
+			<tspan x="40" dy="18">- C#</tspan>
+			<tspan x="40" dy="18">- Golang</tspan>
+			<tspan x="40" dy="18">- Swift for iOS</tspan>
+			<tspan x="20" dy="18">I love creating projects that challenge me to learn new things and improve my skills.</tspan>
+			<tspan x="20" dy="18">Feel free to check out my GitHub for more of my works!</tspan>
+			<tspan x="20" dy="18">(This little card was made with Golang and SVG!)</tspan>
+		</text>
+	</a>
+
+	<defs>
+
+		<!-- ClipPath for typewriter reveal -->
+		<clipPath id="revealClip">
+			<rect x="20" y="60" width="0" height="200">
+				<animate attributeName="width"
+						 from="0" to="760"
+						 dur="4s"
+						 fill="freeze"/>
+			</rect>
+		</clipPath>
+
+		<!-- Purple Glow -->
+		<filter id="purpleGlow" width="200%%" height="200%%" x="-50%%" y="-50%%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur1"/>
+			<feFlood flood-color="#C86BFF" flood-opacity="1" result="color"/>
+			<feComposite in="color" in2="blur1" operator="in" result="glowColor"/>
+			<feGaussianBlur in="glowColor" stdDeviation="6" result="pulse">
+				<animate attributeName="stdDeviation"
+						 values="4;8;4"
+						 dur="2s"
+						 repeatCount="indefinite"/>
+			</feGaussianBlur>
+			<feMerge>
+				<feMergeNode in="pulse"/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+
+		<!-- Glass blur effect -->
+		<filter id="glass" x="-50%%" y="-50%%" width="200%%" height="200%%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+			<feComponentTransfer>
+				<feFuncA type="linear" slope="0.6"/>
+			</feComponentTransfer>
+			<feBlend in="SourceGraphic" in2="blur" mode="normal"/>
+		</filter>
+
+		<!-- Gradient -->
+		<linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0%%" stop-color="white" stop-opacity="0.3"/>
+			<stop offset="100%%" stop-color="white" stop-opacity="0"/>
+		</linearGradient>
+
+	</defs>
+
+</svg>
