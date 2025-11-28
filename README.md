@@ -13,11 +13,6 @@
 
 -----
 
-### 📋 ☆ About me :
-I'm a young developer currently at school, my languages as of the moment are : Rust, C#, Golang, and also Swift for iOS.
-
------
-
 ### 🎵 ☆ Last listened song :
 <img src="https://music-profile.rayriffy.com/theme/dark.svg?uid=000117.770ef59af8cb4948bca028afb7bcba49.0945" alt="Apple Music Profile"/>
 
