@@ -19,7 +19,7 @@
 -----
 
 ### 📈 ☆ Github stats : 
-https://githubcard.com/g/jahbmBJh.svg
+![My Card](https://githubcard.com/g/jahbmBJh.svg)
 <!--
 ![onihilist's Stats](https://github-readme-stats.vercel.app/api?username=onihilist&theme=aura&show_icons=true&hide_border=true&count_private=true&show=prs_merged_percentage)
 ![onihilist's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=onihilist&theme=aura&show_icons=true&hide_border=true&layout=compact)
