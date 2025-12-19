@@ -36,7 +36,7 @@
 
 ### 🌐 ☆ Distributions :
 
-[![Distribution](https://skillicons.dev/icons?i=windows,debian,ubuntu)](https://skillicons.dev) <br />
+[![Distribution](https://skillicons.dev/icons?i=windows,apple,debian,ubuntu)](https://skillicons.dev) <br />
 
 -----
 
