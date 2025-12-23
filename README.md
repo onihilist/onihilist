@@ -1,11 +1,8 @@
 
 ## 🍜 ☆ Hey i'm Nihilist 
 
-![My Card](https://ioscard.fly.dev/)
-
-<!--
 <img width="1600" height="900" alt="umika-chibi-github" src="https://github.com/user-attachments/assets/00aaf07a-4c0a-4e7d-aaa4-78183ee476fc" alt="Young nihilist be like :o"/>
--->
+
 -----
 
 ### 👀 ☆ Visit counter :
