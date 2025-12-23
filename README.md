@@ -45,16 +45,15 @@
 <table align="center">
 <tr>
 <td width="50%">
-
-### ☁️ 2SCloud
-**Full-stack cloud architecture, without magic.**
-
-- Designing a complete cloud architecture: DNS, Edge Gateway, and specialized modules...etc  
-- Developing Rust modules for the Edge Gateway: rate-limiting, firewall, WAF, and more  
-- Focused on **performance, security, and modularity**
-
-> “A cloud you can truly understand, end to end.”
-
+  <h3>☁️ <a href="https://github.com/2SCloud/">2SCloud</a></h3>
+    
+  **Full-stack cloud architecture, without magic.**
+  
+  - Designing a complete cloud architecture: DNS, Edge Gateway, and specialized modules...etc  
+  - Developing Rust modules for the Edge Gateway: rate-limiting, firewall, WAF, and more  
+  - Focused on **performance, security, and modularity**
+  
+  > “A cloud you can truly understand, end to end.”
 </td>
 </tr>
 </table>
