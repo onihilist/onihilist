@@ -75,13 +75,23 @@ I love backing cool projects that inspire me or make the dev world better. Pleas
 <td align="center">
   <h3>🐺 <a href="https://github.com/ohkami-rs/ohkami">Ohkami</a></h3>
   
-**Sharp, fast, unapologetic.**
-
-- High-performance backend & systems work  
-- Focus on **speed, correctness, and control**
-- Rust-first mindset 🦀
-
-> “If it’s slow, it’s broken.”
+  **Sharp, fast, unapologetic.**
+  
+  - High-performance backend & systems work  
+  - Focus on **speed, correctness, and control**
+  - Rust-first mindset 🦀
+  
+  > “If it’s slow, it’s broken.”
+</td>
+<td align="center">
+  <h3>💖 <a href="https://github.com/moeru-ai/airi">Airi</a></h3>
+  
+  **AI-powered assistant / project.**
+  
+  - Cutting-edge AI research and implementations  
+  - Designed to **enhance productivity and automation**  
+  
+  > “Your AI companion in code and creativity.”
 </td>
 </tr>
 </table>
