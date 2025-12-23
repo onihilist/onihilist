@@ -90,7 +90,7 @@ I love backing cool projects that inspire me or make the dev world better. Pleas
   - Cutting-edge AI research and implementations  
   - Designed to **enhance productivity and automation**  
   
-  > “Your AI companion in code and creativity.”
+  > “Your AI companion.”
 </td>
 </tr>
 </table>
