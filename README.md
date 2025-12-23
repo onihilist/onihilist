@@ -46,30 +46,44 @@
 <tr>
 <td width="50%">
 
-### 🐺 Ohkami
-**Sharp, fast, unapologetic.**
-
-- High-performance backend & systems work  
-- Focus on **speed, correctness, and control**
-- Rust-first mindset 🦀
-
-> “If it’s slow, it’s broken.”
-
-</td>
-<td width="50%">
-
 ### ☁️ 2SCloud
-**Infrastructure without magic.**
+**Full-stack cloud architecture, without magic.**
 
-- Cloud & orchestration projects  
-- Kubernetes, Docker, databases, pipelines  
-- Built for **clarity, not buzzwords**
+- Designing a complete cloud architecture: DNS, Edge Gateway, and specialized modules...etc  
+- Developing Rust modules for the Edge Gateway: rate-limiting, firewall, WAF, and more  
+- Focused on **performance, security, and modularity**
 
-> “Abstractions should leak only when you want them to.”
+> “A cloud you can truly understand, end to end.”
 
 </td>
 </tr>
 </table>
+
+<br/>
+
+<p align="center">
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+</p>
+
+## 🌟 ☆ Shout-Out / Projects I Support
+
+I love backing cool projects that inspire me or make the dev world better. Check them out!  
+
+<table align="center">
+<tr>
+<td align="center">
+  <a href="https://github.com/ohkami-project">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ohkami-project&repo=ohkami&theme=aura" alt="Ohkami Project" />
+    <br>🐺 Ohkami
+  </a>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <i>Supporting the tools, frameworks, and projects that keep the ecosystem thriving.</i>
+</p>
 
 <br/>
 
