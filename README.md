@@ -68,15 +68,20 @@
 
 ## 🌟 ☆ Shout-Out / Projects I Support
 
-I love backing cool projects that inspire me or make the dev world better. Check them out!  
+I love backing cool projects that inspire me or make the dev world better. Please check them out!  
 
 <table align="center">
 <tr>
 <td align="center">
-  <a href="https://github.com/ohkami-project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ohkami-project&repo=ohkami&theme=aura" alt="Ohkami Project" />
-    <br>🐺 Ohkami
-  </a>
+  <h3>🐺 <a href="https://github.com/ohkami-rs/ohkami">Ohkami</a></h3>
+  
+**Sharp, fast, unapologetic.**
+
+- High-performance backend & systems work  
+- Focus on **speed, correctness, and control**
+- Rust-first mindset 🦀
+
+> “If it’s slow, it’s broken.”
 </td>
 </tr>
 </table>
