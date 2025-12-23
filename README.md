@@ -1,58 +1,170 @@
+## 🍜 ☆ Hey, I’m **Nihilist**
 
-## 🍜 ☆ Hey i'm Nihilist 
+<p align="center">
+  <img width="1600" height="900" src="https://github.com/user-attachments/assets/00aaf07a-4c0a-4e7d-aaa4-78183ee476fc" alt="Young nihilist be like :o"/>
+</p>
 
-<img width="1600" height="900" alt="umika-chibi-github" src="https://github.com/user-attachments/assets/00aaf07a-4c0a-4e7d-aaa4-78183ee476fc" alt="Young nihilist be like :o"/>
+<p align="center">
+  <i>I build systems. Some are stable. Some are beautiful. Some are both. Some are just beautiful...</i>
+</p>
 
------
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1200&color=9F7AEA&center=true&vCenter=true&width=600&lines=Backend+%26+Infra+gremlin;Cloud+but+with+opinions;Shipping+over+talking"/>
+</p>
 
-### 👀 ☆ Visit counter :
+<br/>
+
+<p align="center">
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+</p>
+
+## 👀 ☆ Visit counter
 ![visit counter onihilist](https://count.getloli.com/@onihilist?name=onihilist&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=0&darkmode=auto)
 
------
+<br/>
 
-### 🎵 ☆ Last listened song :
+<p align="center">
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+</p>
+
+## 🎵 ☆ Last listened song
 [![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/dark.svg?uid=000117.770ef59af8cb4948bca028afb7bcba49.0945)](https://music-profile.rayriffy.com)
 
------
+<br/>
 
-### 📈 ☆ Github stats : 
-![onihilist's Stats](https://github-readme-stats.vercel.app/api?username=onihilist&theme=aura&show_icons=true&hide_border=true&count_private=true&show=prs_merged_percentage)
-![onihilist's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=onihilist&theme=aura&show_icons=true&hide_border=true&layout=compact)
-![onihilist's Trophy](https://github-profile-trophy.vercel.app/?username=onihilist&theme=aura&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Stars,Followers,Commits,MultiLanguage,Issues,PullRequest,Reviews,Repositories)
+<p align="center">
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+</p>
 
------
 
-### 💻 ☆ Languages & Technologies :
+## 🚀 ☆ Active projects
 
-[![Languages](https://skillicons.dev/icons?i=rust,go,cs,swift,java,ts,python,md,latex)](https://skillicons.dev) <br />
-[![Languages](https://skillicons.dev/icons?i=nodejs,nestjs,php,symfony,html,js,css,scss)](https://skillicons.dev) <br />
-[![Technologies](https://skillicons.dev/icons?i=kubernetes,docker,mysql,postgres,sqlite,postman,mongodb)](https://skillicons.dev) <br />
-[![Technologies](https://skillicons.dev/icons?i=git,github,gitlab)](https://skillicons.dev)
+<table align="center">
+<tr>
+<td width="50%">
 
------
+### 🐺 Ohkami
+**Sharp, fast, unapologetic.**
 
-### 🌐 ☆ Distributions :
+- High-performance backend & systems work  
+- Focus on **speed, correctness, and control**
+- Rust-first mindset 🦀
 
-[![Distribution](https://skillicons.dev/icons?i=windows,apple,debian,ubuntu)](https://skillicons.dev) <br />
+> “If it’s slow, it’s broken.”
 
------
+</td>
+<td width="50%">
 
-### 📲 ☆ Socials :
-[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/onhilist)
-![GitLab](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/oppshs)
-![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
+### ☁️ 2SCloud
+**Infrastructure without magic.**
+
+- Cloud & orchestration projects  
+- Kubernetes, Docker, databases, pipelines  
+- Built for **clarity, not buzzwords**
+
+> “Abstractions should leak only when you want them to.”
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<p align="center">
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+</p>
+
+## 📜 ☆ Developer manifesto
+
+> I don’t write code to chase trends.  
+> I write it to **understand systems**.
+
+- I value **boring tech** when it’s proven  
+- I value **new tech** when it earns its place  
+- I prefer **explicit over clever**  
+- I believe performance is a *feature*, not an optimization  
+- I don’t fear complexity — I fear **unnecessary complexity**
+
+> Good software feels inevitable.  
+> Bad software feels like a compromise.
+
+<br/>
+
+<p align="center">
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+</p>
+
+## 🧠 ☆ Things I like working on
+
+- Backend architecture
+- Distributed systems
+- APIs that don’t lie
+- Databases that don’t surprise you
+- Infrastructure you can *actually* reason about
+
 <!--
-**onihilist/onihilist** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+EASTER EGG #1:
+If you're reading this, you probably care about details.
+We'd get along.
+https://github.com/onihilist/
+-->
 
-Here are some ideas to get you started:
+<br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<p align="center">
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+</p>
+
+## 📈 ☆ GitHub stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=onihilist&theme=aura&show_icons=true&hide_border=true&count_private=true&show=prs_merged_percentage" />
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=onihilist&theme=aura&hide_border=true&layout=compact" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=onihilist&theme=aura&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Stars,Followers,Commits,MultiLanguage,Issues,PullRequest,Reviews,Repositories" />
+</p>
+
+<br/>
+
+<p align="center">
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+</p>
+
+## 💻 ☆ Tech stack
+
+[![Stack](https://skillicons.dev/icons?i=rust,go,cs,swift,java,ts,python,nodejs,nestjs,kubernetes,docker,postgres,mongodb,git)](https://skillicons.dev)
+
+<br/>
+
+<p align="center">
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+</p>
+
+## 📲 ☆ Socials
+
+<p align="center">
+  <a href="https://github.com/onihilist">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://t.me/oppshs">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
+</p>
+
+<!--
+EASTER EGG #2:
+This README is intentionally long.
+If you scrolled this far, hi 👋
+https://github.com/onihilist/
 -->
