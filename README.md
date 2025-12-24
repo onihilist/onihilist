@@ -85,11 +85,8 @@ I love backing cool projects that inspire me or make the dev world better. Pleas
 <td align="center">
   <h3>💖 <a href="https://github.com/moeru-ai/airi">Airi</a></h3>
   
-  **AI-powered assistant / project.**
-  
-  - Cutting-edge AI research and implementations  
-  - Designed to **enhance productivity and automation**  
-  
+  **AI-powered companion.**
+
   > “Your AI companion.”
 </td>
 </tr>
