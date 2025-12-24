@@ -87,6 +87,8 @@ I love backing cool projects that inspire me or make the dev world better. Pleas
   
   **AI-powered companion.**
 
+  - RAG, memory, embedded database, Live2D...
+    
   > “Your AI companion.”
 </td>
 </tr>
