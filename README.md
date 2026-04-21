@@ -15,8 +15,7 @@
 <br/>
 
 <p align="center">
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
 </p>
 
 ## 👀 ☆ Visit counter
@@ -25,8 +24,7 @@
 <br/>
 
 <p align="center">
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
 </p>
 
 ## 🎵 ☆ Last listened song
@@ -35,8 +33,7 @@
 <br/>
 
 <p align="center">
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
 </p>
 
 
@@ -61,8 +58,7 @@
 <br/>
 
 <p align="center">
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
 </p>
 
 ## 🌟 ☆ Shout-Out / Projects I Support
@@ -101,8 +97,7 @@ I love backing cool projects that inspire me or make the dev world better. Pleas
 <br/>
 
 <p align="center">
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
 </p>
 
 ## 📜 ☆ Developer manifesto
@@ -122,8 +117,7 @@ I love backing cool projects that inspire me or make the dev world better. Pleas
 <br/>
 
 <p align="center">
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
 </p>
 
 ## 🧠 ☆ Things I like working on
@@ -144,8 +138,7 @@ https://github.com/onihilist/
 <br/>
 
 <p align="center">
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
 </p>
 
 ## 📈 ☆ GitHub stats
@@ -163,8 +156,7 @@ https://github.com/onihilist/
 <br/>
 
 <p align="center">
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
 </p>
 
 ## 💻 ☆ Tech stack
@@ -174,8 +166,7 @@ https://github.com/onihilist/
 <br/>
 
 <p align="center">
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-  <img width="200" height="76" alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
+  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
 </p>
 
 ## 📲 ☆ Socials
