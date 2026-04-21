@@ -23,19 +23,10 @@
 
 <br/>
 
-<p align="center">
-  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-</p>
-
 ## 🎵 ☆ Last listened song
 [![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/dark.svg?uid=000117.770ef59af8cb4948bca028afb7bcba49.0945)](https://music-profile.rayriffy.com)
 
 <br/>
-
-<p align="center">
-  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-</p>
-
 
 ## 🚀 ☆ Active projects
 
@@ -56,10 +47,6 @@
 </table>
 
 <br/>
-
-<p align="center">
-  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-</p>
 
 ## 🌟 ☆ Shout-Out / Projects I Support
 
@@ -96,10 +83,6 @@ I love backing cool projects that inspire me or make the dev world better. Pleas
 
 <br/>
 
-<p align="center">
-  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-</p>
-
 ## 📜 ☆ Developer manifesto
 
 > I don’t write code to chase trends.  
@@ -115,10 +98,6 @@ I love backing cool projects that inspire me or make the dev world better. Pleas
 > Bad software feels like a compromise.
 
 <br/>
-
-<p align="center">
-  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-</p>
 
 ## 🧠 ☆ Things I like working on
 
@@ -137,10 +116,6 @@ https://github.com/onihilist/
 
 <br/>
 
-<p align="center">
-  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-</p>
-
 ## 📈 ☆ GitHub stats
 
 <p align="center">
@@ -155,19 +130,11 @@ https://github.com/onihilist/
 
 <br/>
 
-<p align="center">
-  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-</p>
-
 ## 💻 ☆ Tech stack
 
 [![Stack](https://skillicons.dev/icons?i=rust,go,cs,swift,java,ts,python,nodejs,nestjs,kubernetes,docker,postgres,mongodb,git)](https://skillicons.dev)
 
 <br/>
-
-<p align="center">
-  <img alt="image" src="https://64.media.tumblr.com/9d2f7ea8678cb11cb75902f2f644c414/597d484c5b41a4ce-42/s1280x1920/0b0d843c44dc3aa0115cb367faa1914baf590635.gifv"/>
-</p>
 
 ## 📲 ☆ Socials
 
