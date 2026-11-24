@@ -7,14 +7,14 @@ username = "onihilist"
 timezone = "Europe/Paris"   # decides what "today" is for the streak
 
 [terminal]
-user = "onihilist"
-host = "inaka"              # 田舎: the countryside
+user = "onhlt"
+host = "github"              # 田舎: the countryside
 
 [header]
-name = "NIHILIST"           # drawn in big block letters
+name = "ONIHILIST"           # drawn in big block letters
 subtitle = "o.nihilist  /  BACKEND & INFRA GREMLIN"
 tagline = "I build systems. Some are stable. Some are beautiful."
-command = "cargo run --release --bin inaka"
+command = "cargo run --release --bin onhltgithub"
 chrome_right = "utf-8 / 田舎"
 # Background photo (jpg or png), cropped to fill the window. Remove these three
 # lines to go back to the drawn countryside.
@@ -33,16 +33,16 @@ value = "@onhlt"
 slug = "telegram"
 icon = "telegram"
 label = "telegram"
-value = "@oppshs"
+value = "@onhlt"
 
 [[badges]]
 slug = "2scloud"
 icon = "cloud"
 label = "2scloud"
-value = "cloud, end to end"
+value = "see more"
 
 [workspace]
-stack = ["rust/", "go/", "c#/", "swift/", "ts/", "python/", "docker/", "k8s/", "postgres/", "mongodb/", "git/"]
+stack = ["rust/", "c#/", "go/", "swift/", "ts/", "python/", "docker/", "k8s/", "postgres/", "mongodb/", "git/"]
 manifesto_file = "manifesto.txt"
 manifesto = [
     "explicit over clever. performance is a feature.",
