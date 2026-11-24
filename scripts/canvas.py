@@ -34,14 +34,19 @@ FONT_SPECS = {
     "symbol1": ("NotoSansSymbols.ttf", {"wght": 400}),
 }
 
-# A washi-paper day and a summer night. Roles, not hues, are used everywhere else.
+# Taken from the header photo: maple crimson, vermilion, burnt orange, temple-wall white
+# and near-black shadows. Light theme is white paper with red ink, dark theme is black
+# lacquer with vermilion and orange. Roles, not hues, are used everywhere else
+# (the role names are historical: "blue" is the directory colour, "lilac" the prompt user...).
 PALETTE = {
-    "light": dict(paper="#f7f5ee", panel="#ece9df", text="#3a4741", muted="#7b877f", line="#dcd8cb",
-                  blue="#5f92bb", lilac="#8b72bd", gold="#c8954c", leaf="#6f9c5f", mint="#6fa88d",
-                  red="#c45c47", tag="#dbe7d0", ink="#2c3a30", shadow="#cfcbbb"),
-    "dark": dict(paper="#151a24", panel="#1d2431", text="#e2e6ee", muted="#98a2b3", line="#343d4f",
-                 blue="#9cc3e4", lilac="#b9a4e8", gold="#e2bd78", leaf="#93c487", mint="#9fd3b6",
-                 red="#de7c64", tag="#a9c79c", ink="#1c2a20", shadow="#06080c"),
+    "light": dict(paper="#fbf8f5", panel="#f2ebe6", text="#1f1414", muted="#8a7671", line="#e9dcd5",
+                  blue="#7b0a0c", lilac="#be100f", gold="#c9661c", leaf="#e0402a", mint="#d9661f",
+                  red="#be100f", tag="#be100f", ink="#fff7f2", shadow="#d8c3ba",
+                  accent=("#7b0a0c", "#d9381e", "#f29a4a"), lights=("#e2483a", "#f2a03a", "#9fc1c4")),
+    "dark": dict(paper="#0e0a0a", panel="#181111", text="#f6f1ec", muted="#a8948e", line="#33221f",
+                 blue="#ffd6c2", lilac="#ff6b4f", gold="#f5b04a", leaf="#ef5a3a", mint="#f5a04a",
+                 red="#ef4a3a", tag="#d9381e", ink="#fff7f2", shadow="#000000",
+                 accent=("#be100f", "#f07a3a", "#fde9d8"), lights=("#e2483a", "#f2a03a", "#9fc1c4")),
 }
 
 DURATION = 16  # seconds of one typing loop
@@ -175,11 +180,16 @@ class Canvas:
         self.add(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="12" fill="{self.color("paper")}" filter="url(#window-shadow)"/>')
         self.add(f'<path d="M{x} {y + bar}V{y + 12}a12 12 0 0 1 12-12H{x + w - 12}a12 12 0 0 1 12 12V{y + bar}Z" fill="{self.color("panel")}"/>')
         self.add(f'<path d="M{x} {y + bar}H{x + w}" stroke="{self.color("line")}"/>')
-        for cx, color in [(30, "#d9a3a8"), (50, "#dcc48f"), (70, "#a7c9a5")]:
+        for cx, color in zip([30, 50, 70], self.p["lights"]):
             self.add(f'<circle cx="{cx}" cy="27" r="5" fill="{color}"/>')
         self.text(title, self.w / 2, 31, 11, "muted", "middle")
         if right:
             self.text(right, self.w - 34, 30, 8, "muted", "end")
+        # A thin crimson-to-orange stripe under the title bar, drawn last so photos don't cover it.
+        start, middle, end = self.p["accent"]
+        self.defs["accent"] = (f'<linearGradient id="accent" gradientUnits="userSpaceOnUse" x1="{x}" y1="0" x2="{x + w}" y2="0">'
+                               f'<stop offset="0" stop-color="{start}"/><stop offset=".55" stop-color="{middle}"/><stop offset="1" stop-color="{end}"/></linearGradient>')
+        self.overlay.append(f'<rect x="{x}" y="{y + bar}" width="{w}" height="2" fill="url(#accent)"/>')
         self.overlay.append(f'<rect x="{x + .5}" y="{y + .5}" width="{w - 1}" height="{h - 1}" rx="11.5" fill="none" stroke="{self.color("line")}"/>')
 
     def finish(self, title):

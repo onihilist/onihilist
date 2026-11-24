@@ -41,12 +41,15 @@ SCENE = {
     ),
 }
 
-# Contribution levels as rice-paddy greens, and a little lilac train that rides the trail.
+# Contribution levels go from bare branch to full autumn maple; an ink-black (light) or
+# white (dark) train rides the trail so it stands out from the reds.
 CELLS = {
-    "light": ["#e9ece0", "#cfe0bb", "#a8c98d", "#7ea868", "#5a8550"],
-    "dark": ["#1e2630", "#2b4733", "#3d6746", "#5c9263", "#8dc48d"],
+    "light": ["#f3ebe6", "#f6c7a8", "#ef8a55", "#d63a24", "#8f1210"],
+    "dark": ["#1f1717", "#4b1412", "#8f1816", "#d9381e", "#f59a4a"],
 }
-TRAIN = {"light": ("#6f57ad", "#a28cd6"), "dark": ("#d3c4f4", "#9a83d6")}
+TRAIN = {"light": ("#1b1212", "#5b4a46"), "dark": ("#ffffff", "#e4d8d0")}
+# Big numbers on the GitHub card, coloured like the maples.
+VALUE_GRADIENT = {"light": ("#8f1210", "#d9381e"), "dark": ("#ff6b4f", "#f5b04a")}
 
 ICONS = {
     "bluesky": '<path d="M7 6.2C5.6 3.6 3.2 1.8 1.9 2.4.8 2.9 1.2 6 2.4 7.1c1 .9 2.6 1 3.6.7-2.4.6-2.9 2.4-1.6 3.6 1.5 1.4 2.6-.6 2.6-2.4 0 1.8 1.1 3.8 2.6 2.4 1.3-1.2.8-3-1.6-3.6 1 .3 2.6.2 3.6-.7C12.8 6 13.2 2.9 12.1 2.4 10.8 1.8 8.4 3.6 7 6.2Z"/>',
@@ -106,8 +109,8 @@ def clip_body(c):
 
 
 # Ink for text drawn over the darkened photo, whatever the README theme.
-PHOTO_INK = dict(text="#f4efe8", muted="#cbc3b8", lilac="#d6c4f5", mint="#a9dcc1", blue="#b8d4ee", leaf="#f2b48a")
-PHOTO_NAME = ("#fbe9cc", "#f5b78e", "#e9806c")
+PHOTO_INK = dict(text="#fff6ef", muted="#d8c6bd", lilac="#ff7a5c", mint="#f5b26a", blue="#ffd9c7", leaf="#f07a3a")
+PHOTO_NAME = ("#fdf1e6", "#f59a4a", "#e5372a")  # temple-wall white to orange to maple red
 MAPLE = "M0-6 1.2-2.8 4.6-4.2 3.2-.9 6-.2 3.4 1.4 3.8 3.6.9 2.4 0 3-.9 2.4-3.8 3.6-3.4 1.4-6-.2-3.2-.9-4.6-4.2-1.2-2.8Z"
 
 
@@ -245,7 +248,7 @@ def figlet_name(c, word, center, top, size=12, colors=None):
     cw, lh = size * .6, size * 1.32
     width = max(map(len, rows)) * cw
     left = center - width / 2
-    start, middle, end = colors or (c.color("leaf"), c.color("blue"), c.color("lilac"))
+    start, middle, end = colors or c.p["accent"]
     c.defs["name-gradient"] = (f'<linearGradient id="name-gradient" gradientUnits="userSpaceOnUse" x1="{num(left)}" y1="0" x2="{num(left + width)}" y2="0">'
                                f'<stop offset="0" stop-color="{start}"/><stop offset=".5" stop-color="{middle}"/><stop offset="1" stop-color="{end}"/></linearGradient>')
     blocks, shadows = [], []
@@ -430,8 +433,14 @@ def github(data, theme, cfg):
     stats = [(f'{summary["total"]:,}', "Contributions", year),
              (summary["currentStreak"], "Current streak", span),
              (summary["longestStreak"], "Longest streak", f"in {year}")]
-    for center, (value, label, foot) in zip([161, 394, 627], stats):
-        c.text(value, center, 140, 24, "text", "middle", "bold")
+    for i, (center, (value, label, foot)) in enumerate(zip([161, 394, 627], stats)):
+        # One gradient per number, spanning exactly its width (glyphs are separate shapes,
+        # so a bounding-box gradient would restart on every digit).
+        half = c.measure(value, 24, "bold") / 2
+        start, end = VALUE_GRADIENT[theme]
+        c.defs[f"value-{i}"] = (f'<linearGradient id="value-{i}" gradientUnits="userSpaceOnUse" x1="{num(center - half)}" y1="0" x2="{num(center + half)}" y2="0">'
+                                f'<stop offset="0" stop-color="{start}"/><stop offset="1" stop-color="{end}"/></linearGradient>')
+        c.text(value, center, 140, 24, f"url(#value-{i})", "middle", "bold")
         c.text(label, center, 165, 11, "muted", "middle")
         c.text(foot, center, 185, 9, "muted", "middle")
     c.prompt(f"git trail --year={year}", CONTENT_X, 225)
