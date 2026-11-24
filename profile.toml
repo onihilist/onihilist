@@ -15,7 +15,7 @@ name = "ONIHILIST"           # drawn in big block letters
 subtitle = "o.nihilist  /  BACKEND & INFRA GREMLIN"
 tagline = "I build systems. Some are stable. Some are beautiful."
 command = "cargo run --release --bin onhltgithub"
-chrome_right = "utf-8 / 田舎"
+chrome_right = "utf-8"
 # Background photo (jpg or png), cropped to fill the window. Remove these three
 # lines to go back to the drawn countryside.
 photo = "art/header-photo.jpg"
