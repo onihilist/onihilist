@@ -1639,17 +1639,17 @@
     },
     {
       "date": "2026-11-24",
-      "level": 0,
-      "count": 0
+      "level": 1,
+      "count": 1
     }
   ],
   "summary": {
-    "total": 765,
-    "currentStreak": 0,
+    "total": 766,
+    "currentStreak": 1,
     "longestStreak": 13,
-    "activeDays": 89,
-    "currentStart": null,
-    "currentEnd": null,
+    "activeDays": 90,
+    "currentStart": "2026-11-24",
+    "currentEnd": "2026-11-24",
     "longestEnd": "2026-02-14"
   }
 }
