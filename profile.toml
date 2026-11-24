@@ -1,0 +1,66 @@
+# Everything personal lives here.
+# Edit, then run:  python scripts/generate_profile.py
+# (badge links and the two sentences under the badges live in README.md)
+
+[github]
+username = "onihilist"
+timezone = "Europe/Paris"   # decides what "today" is for the streak
+
+[terminal]
+user = "onihilist"
+host = "inaka"              # 田舎: the countryside
+
+[header]
+name = "NIHILIST"           # drawn in big block letters
+subtitle = "o.nihilist  /  BACKEND & INFRA GREMLIN"
+tagline = "I build systems. Some are stable. Some are beautiful."
+command = "cargo run --release --bin inaka"
+chrome_right = "utf-8 / 田舎"
+# Background photo (jpg or png), cropped to fill the window. Remove these three
+# lines to go back to the drawn countryside.
+photo = "art/header-photo.jpg"
+photo_position = "xMidYMid"   # which part to keep if the photo is cropped: xMinYMin, xMidYMax...
+veil = 0.6                    # black veil opacity, 0 = no veil, 1 = black
+
+# Small tags under the header. `icon` is one of: bluesky, telegram, cloud, mail.
+[[badges]]
+slug = "bluesky"
+icon = "bluesky"
+label = "bluesky"
+value = "@onhlt"
+
+[[badges]]
+slug = "telegram"
+icon = "telegram"
+label = "telegram"
+value = "@oppshs"
+
+[[badges]]
+slug = "2scloud"
+icon = "cloud"
+label = "2scloud"
+value = "cloud, end to end"
+
+[workspace]
+stack = ["rust/", "go/", "c#/", "swift/", "ts/", "python/", "docker/", "k8s/", "postgres/", "mongodb/", "git/"]
+manifesto_file = "manifesto.txt"
+manifesto = [
+    "explicit over clever. performance is a feature.",
+    "boring tech when it's proven, new tech when it earns its place.",
+]
+motto = "Good software feels inevitable."
+
+[[workspace.focus]]
+name = "2scloud/"
+detail = "dns / edge gateway / waf / compute"
+
+[[workspace.focus]]
+name = "backend/"
+detail = "APIs that don't lie, databases that don't surprise"
+
+[[workspace.focus]]
+name = "distributed/"
+detail = "infrastructure you can actually reason about"
+
+[github_card]
+footer = "Shipping over talking, one square at a time."

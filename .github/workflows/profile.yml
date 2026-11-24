@@ -1,0 +1,41 @@
+name: Refresh profile artwork
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-artwork
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Cache fonts
+        uses: actions/cache@v4
+        with:
+          path: .cache/fonts
+          key: fonts-${{ hashFiles('scripts/canvas.py') }}
+      - name: Install artwork dependencies
+        run: python -m pip install -r scripts/requirements.txt
+      - name: Verify calendar handling
+        run: python -m unittest discover -s tests
+      - name: Render public contribution data
+        run: python scripts/generate_profile.py
+      - name: Save updated artwork
+        run: |
+          git add assets data/contributions.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: refresh profile activity'
+          git push
