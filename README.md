@@ -10,7 +10,7 @@
     <source media="(prefers-color-scheme: dark)" srcset="assets/badge-bluesky-dark.svg">
     <img src="assets/badge-bluesky-light.svg" height="32" align="middle" alt="Bluesky: @onhlt">
   </picture></a>&nbsp;
-  <a href="https://t.me/oppshs"><picture>
+  <a href="https://t.me/onhlt"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/badge-telegram-dark.svg">
     <img src="assets/badge-telegram-light.svg" height="32" align="middle" alt="Telegram: @oppshs">
   </picture></a>&nbsp;
