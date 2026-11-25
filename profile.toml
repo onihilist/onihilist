@@ -64,3 +64,23 @@ detail = "infrastructure you can actually reason about"
 
 [github_card]
 footer = "Shipping over talking, one square at a time."
+
+# GitHub Sponsors card. The daily Action refreshes it when the repository has a
+# SPONSORS_TOKEN secret (a token with the read:user scope). Only public sponsors appear.
+[sponsors]
+thanks_file = "thanks.txt"
+motto = "Thank you for keeping the lanterns lit."
+
+# Each sponsor goes in the highest tier their monthly amount reaches (highest first,
+# the top one highlighted). Below the lowest `from`, they are counted but not named.
+[[sponsors.tiers]]
+from = 25
+name = "edge-guardian/"
+
+[[sponsors.tiers]]
+from = 10
+name = "lantern/"
+
+[[sponsors.tiers]]
+from = 5
+name = "torii/"

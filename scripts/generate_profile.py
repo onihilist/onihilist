@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Fetch GitHub's public contribution calendar and render every profile SVG."""
+"""Fetch GitHub's public contribution calendar and sponsors, then render every profile SVG."""
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -105,6 +106,78 @@ def fetch_calendar(username, as_of):
             time.sleep(attempt + 1)
 
 
+SPONSORS_QUERY = """
+query($login: String!, $cursor: String) {
+  user(login: $login) {
+    sponsorshipsAsMaintainer(first: 100, after: $cursor) {
+      pageInfo { hasNextPage endCursor }
+      nodes {
+        privacyLevel
+        createdAt
+        tier { monthlyPriceInDollars }
+        sponsorEntity { ... on User { login } ... on Organization { login } }
+      }
+    }
+  }
+}
+"""
+
+
+def fetch_sponsors(username, token):
+    """Active sponsorships of `username`. Reading them needs a token with the read:user scope."""
+    nodes, cursor = [], None
+    while True:
+        body = json.dumps({"query": SPONSORS_QUERY, "variables": {"login": username, "cursor": cursor}}).encode("utf-8")
+        request = Request("https://api.github.com/graphql", data=body, headers={
+            "Authorization": f"bearer {token}", "Content-Type": "application/json", "User-Agent": "profile-readme/1.0"})
+        with urlopen(request, timeout=30) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+        if payload.get("errors"):
+            raise RuntimeError("; ".join(error.get("message", "unknown error") for error in payload["errors"]))
+        page = payload["data"]["user"]["sponsorshipsAsMaintainer"]
+        nodes += page["nodes"]
+        if not page["pageInfo"]["hasNextPage"]:
+            return nodes
+        cursor = page["pageInfo"]["endCursor"]
+
+
+def group_sponsors(nodes, settings):
+    """Keep public sponsors only, put each in the highest tier it reaches, oldest first.
+
+    Sponsors below the lowest tier are only counted, never named. Only logins and tier
+    names are kept, so the saved file never says who pays exactly how much.
+    """
+    tiers = sorted(settings.get("tiers", []), key=lambda tier: -tier["from"])
+    listed, friends = [], 0
+    for node in sorted(nodes, key=lambda node: node.get("createdAt") or ""):
+        login = (node.get("sponsorEntity") or {}).get("login")
+        if node.get("privacyLevel") != "PUBLIC" or not login:
+            continue
+        amount = (node.get("tier") or {}).get("monthlyPriceInDollars") or 0
+        tier = next((tier["name"] for tier in tiers if amount >= tier["from"]), None)
+        if tier:
+            listed.append({"login": login, "tier": tier})
+        else:
+            friends += 1
+    return {"sponsors": listed, "friends": friends}
+
+
+def load_sponsors(config):
+    """Fresh sponsors when SPONSORS_TOKEN is set, otherwise the last saved list (or none yet)."""
+    path = ROOT / "data" / "sponsors.json"
+    saved = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"sponsors": [], "friends": 0}
+    token = os.environ.get("SPONSORS_TOKEN")
+    if not token:
+        print("::warning::SPONSORS_TOKEN is not set, keeping the saved sponsors list.")
+        return saved, False
+    try:
+        nodes = fetch_sponsors(config["github"]["username"], token)
+    except Exception as error:
+        print(f"::warning::Could not read sponsors ({error}), keeping the saved list.")
+        return saved, False
+    return group_sponsors(nodes, config.get("sponsors", {})), True
+
+
 def main():
     config = load_config()
     today = datetime.now(ZoneInfo(config["github"].get("timezone", "UTC"))).date()
@@ -119,14 +192,19 @@ def main():
     else:
         data = fetch_calendar(config["github"]["username"], args.as_of)
 
+    sponsors, fresh = load_sponsors(config)
+
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     import artwork  # needs fonttools and pyfiglet; imported late so the tests above can run without them
-    artwork.write_assets(data, config)
+    artwork.write_assets(data, config, sponsors)
 
     dest = ROOT / "data"
     dest.mkdir(exist_ok=True)
     (dest / "contributions.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-    print(f'Rendered profile assets: {data["asOf"]}, {data["summary"]["total"]} contributions')
+    if fresh:
+        (dest / "sponsors.json").write_text(json.dumps(sponsors, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    print(f'Rendered profile assets: {data["asOf"]}, {data["summary"]["total"]} contributions, '
+          f'{len(sponsors["sponsors"])} listed sponsors + {sponsors["friends"]} friends')
 
 
 if __name__ == "__main__":

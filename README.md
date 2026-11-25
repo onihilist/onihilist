@@ -38,6 +38,13 @@
 </picture>
 </p>
 
+<p align="center">
+<a href="https://github.com/sponsors/onihilist"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sponsors-dark.svg">
+  <img src="assets/sponsors-light.svg" width="788" alt="Sponsors: the people keeping the lanterns lit, grouped by tier and updated daily. Click to become a sponsor.">
+</picture></a>
+</p>
+
 <!--
 EASTER EGG:
 If you're reading this, you probably care about details.

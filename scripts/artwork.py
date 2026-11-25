@@ -449,13 +449,87 @@ def github(data, theme, cfg):
                     f"longest streak {summary['longestStreak']}. Contribution trail through {data['asOf']}.")
 
 
+# -- sponsors -----------------------------------------------------------------
+
+def paper_lantern(c):
+    """A chōchin swaying under the title bar, glowing softly."""
+    c.style('.chochin{transform-origin:722px 44px;animation:sway 6s ease-in-out infinite}.lantern-glow{animation:lantern-glow 4s ease-in-out infinite}'
+            '@keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}@keyframes lantern-glow{50%{opacity:.08}}')
+    kanji = c.capture_text("灯", 716, 86, 12, "paper", family="jp")
+    c.add(f'<g class="chochin"><path d="M722 44V58" stroke="{c.color("muted")}" stroke-width=".8"/>'
+          f'<circle class="lantern-glow" cx="722" cy="81" r="28" fill="{c.color("gold")}" opacity=".18"/>'
+          f'<path d="M712 62C704 70 704 92 712 100H732C740 92 740 70 732 62Z" fill="{c.color("red")}"/>'
+          f'<path d="M710 70H734M707 78H737M707 86H737M710 94H734" stroke="#000" stroke-opacity=".22" stroke-width=".8"/>'
+          f'{kanji}<rect x="713" y="58" width="18" height="4" rx="1" fill="#1b1212"/><rect x="713" y="100" width="18" height="4" rx="1" fill="#1b1212"/>'
+          f'<path d="M722 104V114" stroke="{c.color("red")}" stroke-width="1.6" stroke-linecap="round"/></g>')
+
+
+def sponsors_card(theme, cfg, sponsors):
+    """`ls ~/sponsors`: names grouped by tier, highest first, the top tier highlighted."""
+    settings = cfg.get("sponsors", {})
+    url = f'github.com/sponsors/{cfg["github"]["username"]}'
+    c = new_canvas(theme, 0, cfg)  # the height depends on how many names wrap, so lay out first
+    tiers = sorted(settings.get("tiers", []), key=lambda tier: -tier["from"])
+    groups = [(tier["name"], ["@" + item["login"] for item in sponsors.get("sponsors", []) if item["tier"] == tier["name"]]) for tier in tiers]
+    groups = [(name, logins) for name, logins in groups if logins]
+    friends = sponsors.get("friends", 0)
+
+    items, y = [], 104
+    if groups:
+        column = 58 + max(c.measure(name, 12, "bold") for name, _ in groups) + 34
+        for rank, (name, logins) in enumerate(groups):
+            top = rank == 0
+            items.append(("dir", name, 58, y, top))
+            x = column
+            for login in logins:
+                width = c.measure(login, 11, "bold" if top else "mono")
+                if x > column and x + width > 690:  # wrap, keeping clear of the lantern
+                    x, y = column, y + 22
+                items.append(("login", login, x, y, top))
+                x += width + c.measure("   ", 11)
+            y += 25
+        if friends:
+            items.append(("muted", f'+ {friends} friend{"s" if friends > 1 else ""} supporting from the shadows ♥', 58, y, False))
+            y += 25
+        items.append(("muted", f"join them → {url}", 58, y, False))
+    else:
+        if friends:
+            items.append(("muted", f'{friends} friend{"s" if friends > 1 else ""} supporting from the shadows ♥', 58, y, False))
+        else:
+            items.append(("muted", "(empty)  no sponsors yet. the lanterns are waiting.", 58, y, False))
+        y += 25
+        items.append(("muted", f"be the first one → {url}", 58, y, False))
+    prompt_y = y + 40
+    motto_y = prompt_y + 30
+    c.h = motto_y + 21
+
+    c.window(f'{c.user}@{c.host} — sponsors')
+    paper_lantern(c)
+    c.prompt("ls ~/sponsors", CONTENT_X, CONTENT_TOP)
+    for kind, label, x, y, top in items:
+        if kind == "dir":
+            directory_text(c, label, x, y, 12, highlight=top)
+        elif kind == "login":
+            c.text(label, x, y, 11, "lilac" if top else "text", family="bold" if top else "mono")
+        else:
+            c.text(label, x, y, 11, "muted")
+    c.prompt(f'cat ~/{settings.get("thanks_file", "thanks.txt")}', CONTENT_X, prompt_y)
+    motto = settings.get("motto", "Thank you.")
+    c.text(motto, 58, motto_y, 12, "gold", family="serif")
+
+    named = "; ".join(f'{name.rstrip("/")}: {", ".join(logins)}' for name, logins in groups)
+    return c.finish(f'Sponsors. {named + "." if named else "No sponsors yet."} {motto}')
+
+
 # -- output -------------------------------------------------------------------
 
-def write_assets(data, cfg):
+def write_assets(data, cfg, sponsors=None):
     dest = ROOT / "assets"
     dest.mkdir(exist_ok=True)
+    sponsors = sponsors or {"sponsors": [], "friends": 0}
     for theme in ("light", "dark"):
-        files = {"header": header(theme, cfg), "workspace": workspace(theme, cfg), "github": github(data, theme, cfg)}
+        files = {"header": header(theme, cfg), "workspace": workspace(theme, cfg), "github": github(data, theme, cfg),
+                 "sponsors": sponsors_card(theme, cfg, sponsors)}
         for item in cfg["badges"]:
             files[f'badge-{item["slug"]}'] = badge(item["icon"], item["label"], item["value"], theme, cfg)
         for name, svg in files.items():

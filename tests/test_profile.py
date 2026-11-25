@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from generate_profile import CalendarParser, load_config, summarize
+from generate_profile import CalendarParser, group_sponsors, load_config, summarize
 
 NS = {"svg": "http://www.w3.org/2000/svg"}
 
@@ -42,6 +42,31 @@ class CalendarTests(unittest.TestCase):
         self.assertEqual(summarize(days + [{"date": "2026-01-08", "count": 0}])["currentStreak"], 0)
 
 
+class SponsorTests(unittest.TestCase):
+    SETTINGS = {"tiers": [{"from": 5, "name": "torii/"}, {"from": 25, "name": "edge-guardian/"}, {"from": 10, "name": "lantern/"}]}
+
+    @staticmethod
+    def node(login, amount, privacy="PUBLIC", created="2026-01-01"):
+        return {"privacyLevel": privacy, "createdAt": created, "tier": {"monthlyPriceInDollars": amount}, "sponsorEntity": {"login": login}}
+
+    def test_tiers_private_sponsors_and_friends(self):
+        nodes = [self.node("late", 10, created="2026-03-01"), self.node("early", 10, created="2026-02-01"),
+                 self.node("big", 40), self.node("exact", 5), self.node("small", 2), self.node("coffee", 1),
+                 self.node("hidden", 100, privacy="PRIVATE"),
+                 {"privacyLevel": "PUBLIC", "createdAt": "2026-01-01", "tier": None, "sponsorEntity": {"login": "custom"}},
+                 {"privacyLevel": "PUBLIC", "createdAt": "2026-01-01", "tier": {"monthlyPriceInDollars": 50}, "sponsorEntity": {}}]
+        result = group_sponsors(nodes, self.SETTINGS)
+        self.assertEqual(result["sponsors"], [
+            {"login": "big", "tier": "edge-guardian/"}, {"login": "exact", "tier": "torii/"},
+            {"login": "early", "tier": "lantern/"}, {"login": "late", "tier": "lantern/"}])
+        self.assertEqual(result["friends"], 3)  # small, coffee and the custom amount without a tier
+        self.assertNotIn("hidden", str(result))
+
+    def test_saved_data_never_contains_amounts(self):
+        result = group_sponsors([self.node("big", 40)], self.SETTINGS)
+        self.assertNotIn("40", str(result))
+
+
 class ReadmeTests(unittest.TestCase):
     def test_picture_sources_keep_the_same_scale(self):
         # GitHub may pick either source for a signed-in theme, so both must fit the fallback size.
@@ -66,7 +91,7 @@ class ReadmeTests(unittest.TestCase):
 
 class ArtworkTests(unittest.TestCase):
     def test_generated_art_is_self_contained_vector_art(self):
-        names = ["header", "workspace", "github"] + [f'badge-{item["slug"]}' for item in load_config()["badges"]]
+        names = ["header", "workspace", "github", "sponsors"] + [f'badge-{item["slug"]}' for item in load_config()["badges"]]
         for name in names:
             for theme in ("light", "dark"):
                 with self.subTest(asset=name, theme=theme):
@@ -89,7 +114,7 @@ class ArtworkTests(unittest.TestCase):
                                 self.assertIn(ref[1], ids)
 
     def test_both_themes_share_one_layout(self):
-        for name in ["header", "workspace", "github"]:
+        for name in ["header", "workspace", "github", "sponsors"]:
             light, dark = (ET.parse(ROOT / f"assets/{name}-{theme}.svg").getroot() for theme in ("light", "dark"))
             self.assertEqual((light.attrib["width"], light.attrib["height"]), (dark.attrib["width"], dark.attrib["height"]))
 

@@ -29,11 +29,13 @@ jobs:
         run: python -m pip install -r scripts/requirements.txt
       - name: Verify calendar handling
         run: python -m unittest discover -s tests
-      - name: Render public contribution data
+      - name: Render contributions and sponsors
+        env:
+          SPONSORS_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
         run: python scripts/generate_profile.py
       - name: Save updated artwork
         run: |
-          git add assets data/contributions.json
+          git add assets data
           if git diff --cached --quiet; then
             exit 0
           fi
