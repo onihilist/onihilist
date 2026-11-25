@@ -1024,8 +1024,8 @@
     },
     {
       "date": "2026-07-24",
-      "level": 1,
-      "count": 4
+      "level": 0,
+      "count": 0
     },
     {
       "date": "2026-07-25",
@@ -1649,10 +1649,10 @@
     }
   ],
   "summary": {
-    "total": 772,
+    "total": 768,
     "currentStreak": 2,
     "longestStreak": 13,
-    "activeDays": 91,
+    "activeDays": 90,
     "currentStart": "2026-11-24",
     "currentEnd": "2026-11-25",
     "longestEnd": "2026-02-14"
